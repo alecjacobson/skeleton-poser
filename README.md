@@ -22,3 +22,15 @@ bones with a rotation widget.
 ## Execution 
 
     ./skeleton_poser mesh.obj skeleton.tgf [weights.dmat]
+
+For example if you issue:
+
+    ./skeleton_poser big-buck-bunny.{obj,tgf}
+
+You can create a pose like this:
+
+![](big-buck-bunny-skeleton-poser.gif)
+
+## See also
+
+ - [skeleton builder](http://github.com/alecjacobson/skeleton-builder)
